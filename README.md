@@ -40,7 +40,7 @@ PRIVATE_KEY=3cac3b0d9297577dfac95fecdd751511446c074a039f001c04585d341423a82a
 To deploy and interact with the Incrementer contract, use the following commands:
 ```
 # Deploy the contract
-npx hardhat ignition deploy ./ignition/modules/Incrementer.ts --network nil_cluster
+npx hardhat ignition deploy ./ignition/modules/Incrementer.ts --network nil
 
 # Interact with the contract
 npx hardhat increment --network nil_cluster --contract <Contract Address>
